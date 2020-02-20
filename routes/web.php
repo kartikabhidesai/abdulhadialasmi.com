@@ -12,3 +12,4 @@
 */
 
 Route::match(['get', 'post'], '/', ['as' => 'home', 'uses' => 'HomeController@home']);
+Route::match(['get', 'post'], 'blog', ['as' => 'blog', 'uses' => 'BlogController@blog']);
